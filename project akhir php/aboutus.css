@@ -1,0 +1,156 @@
+/* Reset body so navbar sticks to very top */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f8f0e0;
+    text-align: center;
+
+  }
+  
+  .page-content {
+    padding-top: 160px !important;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
+  
+  
+
+  .team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .team-member {
+    padding-top: 40px;
+  
+  }
+  
+  .team-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+  }
+  
+  .team-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .team-member h3 {
+    margin: 10px 0 5px;
+    text-transform: lowercase;
+  }
+  
+  .team-member p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .team-member a {
+    color: #e2d580;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .team-member a:hover {
+    text-decoration: underline;
+  }
+  
+  .book-button {
+    background-color: #e2d580;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .book-button:hover {
+    background-color: #d46f6f;
+  }
+
+  .footer {
+    background-color: #e3d3c0; 
+    padding: 70px 60px;
+    position: relative;
+    color: #4a413a;
+    font-family: "Helvetica", sans-serif;
+}
+
+/* soft curved lines background */
+.footer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(circle at 0% 0%, rgba(0,0,0,0.05) 1px, transparent 1px),
+        radial-gradient(circle at 20% 10%, rgba(0,0,0,0.05) 2px, transparent 2px);
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 5;
+}
+
+.footer-logo h2 {
+    font-size: 32px;
+    letter-spacing: 8px;
+    margin-bottom: 5px;
+}
+
+.footer-logo p {
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 15px;
+    line-height: 22px;
+    width: 200px;
+}
+
+.footer-social {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.footer-bottom a {
+    color: #4a413a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+  
